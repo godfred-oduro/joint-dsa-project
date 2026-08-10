@@ -1,0 +1,103 @@
+# Owner: 22248029
+#
+# This file tells GitHub who owns which part of the project.
+# When someone opens a pull request that touches a file, GitHub
+# asks that file's owner to review it. Nobody can quietly change
+# another member's work.
+#
+# Replace the placeholder usernames below with the real GitHub
+# usernames before the first pull request.
+
+# Repository and build files
+/pom.xml                @leader-22248029
+/.gitignore             @leader-22248029
+/.github/               @leader-22248029
+/docs/CONTRIBUTIONS.md  @leader-22248029
+
+# Documentation
+/README.md              @member-22399010
+/docs/development-log.md @member-22104879
+/docs/attendance/       @member-22372680
+/docs/traces/           @member-22399010
+/docs/proofs/           @member-22399010
+/docs/graphs/           @member-22224236
+
+# Database and data
+/sql/schema.sql                     @member-22015166
+/sql/seed/locations.csv             @member-22104879
+/sql/seed/roads.csv                 @member-22104879
+/sql/seed/resources.csv             @member-22395395
+/sql/seed/service_requests.csv      @member-22015166
+/tools/                             @member-22015166
+/config.properties.example          @member-22104879
+
+# Data structures, one per member
+/src/main/java/gh/ug/hospital/ds/DynamicArray.java            @member-22399601
+/src/main/java/gh/ug/hospital/ds/SinglyLinkedList.java        @member-22392509
+/src/main/java/gh/ug/hospital/ds/DoublyLinkedList.java        @member-22372680
+/src/main/java/gh/ug/hospital/ds/LinkedStack.java             @member-22372639
+/src/main/java/gh/ug/hospital/ds/LinkedQueue.java             @member-22015166
+/src/main/java/gh/ug/hospital/ds/CircularQueue.java           @member-22395395
+/src/main/java/gh/ug/hospital/ds/LinkedDeque.java             @member-22367946
+/src/main/java/gh/ug/hospital/ds/BinarySearchTree.java        @member-22305896
+/src/main/java/gh/ug/hospital/ds/ChainedHashTable.java        @member-22370298
+/src/main/java/gh/ug/hospital/ds/HashBackedSet.java           @member-22399010
+/src/main/java/gh/ug/hospital/ds/BinaryHeap.java              @member-22224236
+/src/main/java/gh/ug/hospital/ds/RedBlackTree.java            @member-22040255
+/src/main/java/gh/ug/hospital/ds/BTree.java                   @member-22104879
+/src/main/java/gh/ug/hospital/ds/HashBackedMap.java           @member-22160537
+/src/main/java/gh/ug/hospital/ds/DisjointSet.java             @member-11102882
+/src/main/java/gh/ug/hospital/ds/graph/                       @leader-22248029
+
+# Algorithms, one per member
+/src/main/java/gh/ug/hospital/algo/LinearSearch.java          @member-22305896
+/src/main/java/gh/ug/hospital/algo/BinarySearch.java          @member-22392509
+/src/main/java/gh/ug/hospital/algo/SelectionSort.java         @member-22372680
+/src/main/java/gh/ug/hospital/algo/InsertionSort.java         @member-22370298
+/src/main/java/gh/ug/hospital/algo/MergeSort.java             @member-22367946
+/src/main/java/gh/ug/hospital/algo/QuickSort.java             @member-22395395
+/src/main/java/gh/ug/hospital/algo/BruteForceRoutes.java      @member-22399010
+/src/main/java/gh/ug/hospital/algo/BreadthFirstSearch.java    @member-22399601
+/src/main/java/gh/ug/hospital/algo/DepthFirstSearch.java      @member-22372639
+/src/main/java/gh/ug/hospital/algo/Dijkstra.java              @leader-22248029
+/src/main/java/gh/ug/hospital/algo/Prim.java                  @member-22104879
+/src/main/java/gh/ug/hospital/algo/Kruskal.java               @member-22040255
+/src/main/java/gh/ug/hospital/algo/TopologicalSort.java       @member-22015166
+/src/main/java/gh/ug/hospital/algo/GreedyAssignment.java      @member-22160537
+/src/main/java/gh/ug/hospital/algo/KnapsackFill.java          @member-11102882
+/src/main/java/gh/ug/hospital/algo/KnapsackReconstruct.java   @member-22224236
+
+# Hospital rules
+/src/main/java/gh/ug/hospital/ops/TriageQueue.java            @member-22224236
+/src/main/java/gh/ug/hospital/ops/ClinicDeferral.java         @member-22160537
+/src/main/java/gh/ug/hospital/ops/ReferralOrdering.java       @member-22015166
+/src/main/java/gh/ug/hospital/ops/Dispatcher.java             @member-22160537
+/src/main/java/gh/ug/hospital/ops/BudgetSelector.java         @member-11102882
+/src/main/java/gh/ug/hospital/ops/UndoService.java            @member-22372639
+
+# Models and their database access, kept with the same owner
+/src/main/java/gh/ug/hospital/model/Location.java             @member-22399601
+/src/main/java/gh/ug/hospital/db/LocationDao.java             @member-22399601
+/src/main/java/gh/ug/hospital/model/Road.java                 @member-22392509
+/src/main/java/gh/ug/hospital/db/RoadDao.java                 @member-22392509
+/src/main/java/gh/ug/hospital/model/Resource.java             @member-22395395
+/src/main/java/gh/ug/hospital/db/ResourceDao.java             @member-22395395
+/src/main/java/gh/ug/hospital/model/ServiceRequest.java       @member-22367946
+/src/main/java/gh/ug/hospital/db/ServiceRequestDao.java       @member-22367946
+/src/main/java/gh/ug/hospital/model/AlgorithmRun.java         @member-22305896
+/src/main/java/gh/ug/hospital/db/AlgorithmRunDao.java         @member-22305896
+/src/main/java/gh/ug/hospital/model/AuditEvent.java           @member-22370298
+/src/main/java/gh/ug/hospital/db/AuditEventDao.java           @member-22370298
+
+# Shared plumbing
+/src/main/java/gh/ug/hospital/db/ConnectionManager.java       @member-22015166
+/src/main/java/gh/ug/hospital/exception/                      @member-22040255
+/src/main/java/gh/ug/hospital/bench/                          @member-22224236
+/src/main/java/gh/ug/hospital/app/                            @leader-22248029
+/src/main/java/gh/ug/hospital/util/Parameters.java            @leader-22248029
+/src/main/java/gh/ug/hospital/util/AlgorithmResult.java       @member-22224236
+/src/main/java/gh/ug/hospital/util/TraceRow.java              @member-22399010
+/src/main/java/gh/ug/hospital/util/TablePrinter.java          @member-22367946
+/src/main/java/gh/ug/hospital/util/Haversine.java             @member-22040255
+/src/main/java/gh/ug/hospital/util/ClinicSchedule.java        @member-22160537
+/src/main/java/gh/ug/hospital/util/TriageScorer.java          @member-11102882
