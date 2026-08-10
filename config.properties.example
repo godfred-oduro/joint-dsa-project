@@ -1,0 +1,9 @@
+# Owner: 22104879
+#
+# Copy this file, rename the copy to  config.properties , and put in your
+# own database details. The real config.properties is never committed,
+# because it would put a password in the repository.
+
+db.url=jdbc:mysql://localhost:3306/ugh_legon?serverTimezone=UTC
+db.user=root
+db.password=CHANGE_ME
