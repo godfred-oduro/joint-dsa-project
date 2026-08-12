@@ -1,0 +1,53 @@
+location_id,name,area,location_type,x_coord,y_coord,internal_code,zone,source,confidence,notes
+L001,Main Gate / Hospital Entrance,Legon,Access,5.650792,-0.178353,UGH-01,South,GOOGLE_EARTH_SURVEY,A,Anchor read from Google Earth imagery 10/04/2025. DMS 5deg 39min 02.85sec N 0deg 10min 42.07sec W. Southern boundary of compound.
+L002,OPD & Pharmacy Block Entrance,Legon,Access,5.650833,-0.177953,UGH-02,South,GOOGLE_EARTH_SURVEY,A,Anchor. DMS 5deg 39min 03.00sec N 0deg 10min 40.63sec W.
+L003,Laboratory & Triage Block Entrance,Legon,Access,5.650858,-0.177817,UGH-03,South,GOOGLE_EARTH_SURVEY,A,Anchor. DMS 5deg 39min 03.09sec N 0deg 10min 40.14sec W.
+L004,Children's Ward,Legon,Ward,5.652200,-0.177436,UGH-04,East,GOOGLE_EARTH_SURVEY,A,Anchor - EASTERN BOUNDARY. DMS 5deg 39min 07.92sec N 0deg 10min 38.77sec W. Labelled on Google Earth.
+L005,Rear of Dental Unit,Legon,Boundary,5.651914,-0.178600,UGH-05,West,GOOGLE_EARTH_SURVEY,A,Anchor - WESTERN BOUNDARY. DMS 5deg 39min 06.89sec N 0deg 10min 42.96sec W.
+L006,New Paediatric Unit,Legon,Department,5.652875,-0.177800,UGH-06,North,GOOGLE_EARTH_SURVEY,A,Anchor - NORTHERN BOUNDARY. DMS 5deg 39min 10.35sec N 0deg 10min 40.08sec W. Ultramodern paediatric unit.
+L007,Security Post & Barrier,Legon,Access,5.650828,-0.178295,UGH-07,South,MODELLED,C,Interpolated just inside main gate. Replace with field GPS.
+L008,Visitor Car Park,Legon,Parking,5.650905,-0.178440,UGH-08,South,MODELLED,C,Interpolated. Replace with field GPS.
+L009,Medical Records,Legon,Department,5.650918,-0.178060,UGH-09,South,MODELLED,C,Official dept. Contact 0203956256. Position interpolated.
+L010,Accounts,Legon,Department,5.650896,-0.178155,UGH-10,South,MODELLED,C,Official dept. Position interpolated.
+L011,OPD Waiting Area,Legon,Waiting,5.650955,-0.177960,UGH-11,South,MODELLED,C,Interpolated from UGH-02.
+L012,OPD Consulting Rooms Corridor,Legon,Path,5.651048,-0.177935,UGH-12,South,MODELLED,C,Official dept - OPD. 24-hour service.
+L013,Pharmacy Dispensing Window,Legon,Department,5.650908,-0.177882,UGH-13,South,MODELLED,C,Official dept. Contact 0501580502. 24-hour service.
+L014,Laboratory Reception,Legon,Department,5.650952,-0.177802,UGH-14,South,MODELLED,C,Official dept. 24-hour service. Interpolated from UGH-03.
+L015,A&E Triage Point,Legon,Department,5.651002,-0.177752,UGH-15,South,MODELLED,C,Official dept - Emergency. Contact 030 397 4641. 24/7. SATS triage applied here.
+L016,Resuscitation Room,Legon,Clinical,5.651062,-0.177722,UGH-16,South,MODELLED,C,SATS Red destination.
+L017,Ambulance Bay,Legon,Access,5.650918,-0.177702,UGH-17,South,MODELLED,C,Ambulance is a listed 24-hour service.
+L018,Casualty / Emergency Ward,Legon,Ward,5.651130,-0.177690,UGH-18,East,MODELLED,C,Part of published 130-bed capacity.
+L019,Central Corridor Junction,Legon,Path,5.651395,-0.177950,UGH-19,Central,MODELLED,C,Main routing hub between wings.
+L020,X-ray / Radiology,Legon,Department,5.651302,-0.178048,UGH-20,Central,MODELLED,C,Official dept.
+L021,ECG Room,Legon,Clinical,5.651348,-0.177902,UGH-21,Central,MODELLED,C,Listed general service.
+L022,Physiotherapy,Legon,Department,5.651552,-0.177878,UGH-22,Central,MODELLED,C,Official dept. Contact 0200877298 / 0555379400. Mon-Fri 08:00-14:00.
+L023,Optometry,Legon,Department,5.651205,-0.177880,UGH-23,Central,MODELLED,C,Official dept. Mon-Fri 08:00-14:00.
+L024,Internal Medicine Clinic,Legon,Department,5.651150,-0.177980,UGH-24,Central,MODELLED,C,Official dept. Tue & Fri 08:00-14:00. Sickle Cell clinic Fri 08:00-14:00.
+L025,Public Health Unit,Legon,Department,5.651240,-0.178140,UGH-25,Central,MODELLED,C,Official dept. Contact 020 087 7298. Mon-Fri 08:00-14:00.
+L026,Mental Health Unit,Legon,Department,5.651100,-0.178180,UGH-26,Central,MODELLED,C,Official dept. Wed from 14:00.
+L027,Main Administration Block,Legon,Department,5.651300,-0.178255,UGH-27,West,MODELLED,C,Official dept. Contact 0307030184. User-confirmed west side.
+L028,Nursing Administration,Legon,Department,5.651452,-0.178302,UGH-28,West,MODELLED,C,Official dept. User-confirmed west side.
+L029,General Surgery Block Entrance,Legon,Department,5.651605,-0.178402,UGH-29,West,MODELLED,C,Official dept. Tue-Thu from 14:00. User-confirmed west side.
+L030,Operating Theatre,Legon,Clinical,5.651682,-0.178352,UGH-30,West,MODELLED,C,Interpolated within surgery block.
+L031,Dental Unit Entrance,Legon,Department,5.651752,-0.178482,UGH-31,West,MODELLED,C,Official dept - Dentistry & Oral Health. Mon-Fri 08:00-14:00. Labelled on Google Earth as UG Dental Unit.
+L032,Dental Treatment Rooms,Legon,Clinical,5.651852,-0.178522,UGH-32,West,MODELLED,C,Interpolated toward UGH-05.
+L033,West Staff / Service Gate,Legon,Access,5.651950,-0.178558,UGH-33,West,MODELLED,C,Interpolated near western boundary.
+L034,Diet Therapy Unit,Legon,Department,5.652048,-0.178105,UGH-34,North,MODELLED,C,Official dept. Mon-Fri 08:00-14:00.
+L035,Catering / Kitchen,Legon,Department,5.652120,-0.178190,UGH-35,North,MODELLED,C,Official dept.
+L036,Housekeeping Store,Legon,Support,5.652205,-0.178255,UGH-36,North,MODELLED,C,Official dept.
+L037,Mortuary,Legon,Support,5.652402,-0.178350,UGH-37,North,MODELLED,C,Listed general service. Placed at rear per standard hospital layout - VERIFY ON SITE.
+L038,Male General Ward,Legon,Ward,5.651452,-0.177622,UGH-38,East,MODELLED,C,Part of published 130-bed capacity. User-confirmed wards on east side.
+L039,Female General Ward,Legon,Ward,5.651562,-0.177532,UGH-39,East,MODELLED,C,Part of published 130-bed capacity.
+L040,Maternity Wing Entrance,Legon,Ward,5.651652,-0.177682,UGH-40,East,MODELLED,C,Published as part of 130-bed capacity. User-confirmed east side.
+L041,Labour & Delivery Ward,Legon,Ward,5.651782,-0.177622,UGH-41,East,MODELLED,C,Obs & Gynae service - Labour and Delivery.
+L042,Postnatal Ward,Legon,Ward,5.651902,-0.177562,UGH-42,East,MODELLED,C,Obs & Gynae service - Postnatal Care.
+L043,Obs & Gynae Clinic,Legon,Department,5.651750,-0.177760,UGH-43,East,MODELLED,C,Official dept. Mon-Thu 08:00-14:00.
+L044,Children's Ward Entrance,Legon,Ward,5.652118,-0.177505,UGH-44,East,MODELLED,C,Interpolated adjacent to anchor UGH-04.
+L045,Paediatric OPD,Legon,Department,5.652782,-0.177885,UGH-45,North,MODELLED,C,Official dept - Paediatrics. Mon & Wed 08:00-14:00. Interpolated adjacent to anchor UGH-06.
+L046,North Service Gate,Legon,Access,5.652830,-0.178105,UGH-46,North,MODELLED,C,Interpolated near northern boundary.
+L047,Oxygen / Supplies Store,Legon,Support,5.652300,-0.177900,UGH-47,North,MODELLED,C,Interpolated. VERIFY ON SITE.
+L048,University Clinic - Central Cafeteria,Legon Campus,Health,5.647161,-0.186900,UGC-01,Campus,GOOGLE_EARTH_SURVEY,A,Anchor. DMS 5deg 38min 49.78sec N 0deg 11min 12.84sec W. Students' Clinic Main Campus - one of the six UG Health Services satellite clinics. Dedicated to UG students and staff. 1.03 km straight-line from UGH-01.
+L049,Central Staff Car Park,Legon,Parking,5.651560,-0.178150,UGH-48,Central,MODELLED,C,Vehicle rows visible on Google Earth imagery 10/04/2025 near central block. Count and extent to be confirmed on site.
+L050,East Car Park,Legon,Parking,5.652000,-0.177700,UGH-49,East,MODELLED,C,Serves maternity and ward block. VERIFY ON SITE.
+L051,Accessible Parking Bays,Legon,Parking,5.650870,-0.178100,UGH-50,South,MODELLED,C,Placed adjacent to OPD entrance per accessible-access design. Confirm bay count on site.
+L052,A&E Patient Drop-off Point,Legon,Access,5.650950,-0.177740,UGH-51,South,MODELLED,C,Step-free drop-off adjacent to triage. Distinct from ambulance bay UGH-17.
